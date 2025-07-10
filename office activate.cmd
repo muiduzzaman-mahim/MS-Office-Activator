@@ -8,8 +8,8 @@ if %i% EQU 3 set KMS=e9.us.to
 if %i% GTR 3 goto ato
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 :ato
-echo =====================================================================================&echo.&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo =====================================================================================&echo.&echo #Please feel free to contact me at devomman@gmail.com if you have any questions or concerns.&echo.&echo #Please consider supporting this project: donate to my paypal devomman@gmail &echo #Your support is helping me keep my servers running 24/7!&echo.&echo =====================================================================================&choice /n /c YN /m "Would you like to visit my blog [Y,N]?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto skms)
-explorer "http://devomman.com"&goto halt
+echo =====================================================================================&echo.&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo =====================================================================================&echo.&echo #Please feel free to contact me at secureambit.info@gmail.com if you have any questions or concerns.&echo.&echo #Please consider supporting this project: donate to my paypal secureambit.info@gmail &echo #Your support is helping me keep my servers running 24/7!&echo.&echo =====================================================================================&choice /n /c YN /m "Would you like to visit us [Y,N]?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto skms)
+explorer "https://secureambit.com"&goto halt
 :notsupported
 echo =====================================================================================&echo.&echo Sorry, your version is not supported.&echo.&goto halt
 :busy
